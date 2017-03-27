@@ -1,0 +1,41 @@
+2017.3.27
+
+## Sipser
+
+# 0.1 Automota, Computability, and Complexity
+
+What are the fundamental capabilities and limitations of computers?
+
+Complexity (classify problems as easy or hard)
+  What makes some problems computationally hard and others easy?
+    We don't really know, but we have "an elegant scheme for classifying problems according to their computational difficulty"
+  3 options for dealing with a computationally hard problem
+    Factor the problem to find the root of the difficulty; simplify the problem
+    Settle for a less an approximate solution
+    Settle for a solution that's quick enough most of the time
+
+Computability (classify problems as solvable or unsolvable)
+  Certain basic problems cannot be solved by computers (no algorithm can perform the task)
+    Proven by Godel, Turing, Church!
+    e.g. the problem of determining whether a mathematical statement is true of false
+
+Automata
+  Definitions and properties of mathematical models of computation
+
+
+# 0.2 Mathematical Notions and Terminology
+
+Sets
+  A SET is a group of objects represented as a unit, e.g. set of sets
+    The objects are called ELEMENTS or MEMBERS
+  Give 2 sets A and B, A is a SUBSET of B if every member of A is also in B
+    A is a PROPER SUBSET of B if A is a subset of B and not equal to B
+  Order doesn't matter in sets!
+  Repitition doesn't matter, no real duplicates!
+    MULTISETS take the number of occurances of members into account
+  an INFINITE set contains infinitely many elements
+    bonus: Countably infinite vs Uncountably infinite sets, e.g. Z vs R
+  the EMPTY set has 0 members
+  the UNION of two sets is the set that combines all their members
+  the INTERSECTION of two sets is the set of members in both
+  
